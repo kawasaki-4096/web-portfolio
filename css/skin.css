@@ -1,0 +1,6 @@
+@charset"UTF-8";
+/* body    { background: rgb(243,243,243) url(../images/icons/bg-gradation.gif) repeat-x  fixed left bottom; } */
+body    { background-color: rgb(243,243,243) ; }
+#header { background: transparent URL(../images/icons/bg-navi.png) repeat-x  scroll left top; }
+.color00{color:white;}
+.bgColor00{background-color:white;}

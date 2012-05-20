@@ -1,0 +1,38 @@
+@charset"UTF-8";
+
+/*  */
+.tc  { text-align:center; }
+.tr  { text-align:right; }
+.tl  { text-align:left; }
+.b   { font-weight:bold; }
+.i   { font-style:italic; }
+.lh1_0  { line-height:1.0em; }
+.lh1_5  { line-height:1.5em; }
+.lh2_0  { line-height:2.5em; }
+.lh2_5  { line-height:2.5em; }
+.lh3_0  { line-height:3.0em; }
+.grid150px{width:150px;float:left;}
+.grid200px{width:200px;float:left;}
+.grid20percent{width:20%;float:left;}
+.vmgn15px{margin-top:15px;margin-bottom: 1px;}
+
+
+
+/* image position */
+img.Left  { float: left; margin:0;  }
+img.Right { float: right; margin:0;  }
+img.Right { margin-left:0; margin-right:0;  }
+img.Full  { width:100%;height:100%; }
+
+/* CLEAR FIX*/
+.clearfix:after {
+  content   : ".";
+  display   : block;
+  height    : 0;
+  clear     : both;
+  visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
